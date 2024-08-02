@@ -15,6 +15,6 @@
 // console.log(undefined < 0);
 // console.log(undefined > 0);  // avoid this types of comparisons 
 
-// ===
+// === strict check
 
 console.log("2" === 2);
