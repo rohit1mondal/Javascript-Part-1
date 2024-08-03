@@ -30,5 +30,5 @@ const myFunction = function () {
   console.log("Hello World");
 };
 
-console.log(typeof id);
+console.log(typeof id); //
 
