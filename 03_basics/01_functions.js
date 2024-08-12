@@ -36,3 +36,37 @@ function loginUserMessage(username){            //defau;t value :- " username = 
 }
 
 console.log(loginUserMessage());
+
+
+// 2nd part
+
+function calculateCartPrice(...num1){           //1    //rest operator = {...  } 
+    return num1
+}
+
+console.log(calculateCartPrice(200, 400, 600));
+
+const user = {              //2
+    username: "rohit",
+    price: 555
+}
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+handleObject(user)
+handleObject({
+    username:"rohi",
+    price: 666
+})
+
+const myNewArray = [200, 400, 100, 300]         //3
+
+function returnSecondValue(getArray){
+    return getArray[2]
+}
+
+console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 400, 100, 300]));
+
